@@ -7,7 +7,7 @@ public with sharing class AccountAddressTriggerHandler {
 	public static void handleBeforeUpdate(){
 		
 	}
-    //test
+    //testing for demo
     private void setShippingPostalCode(List<Account> lstAccount){
     	try{
     		if(lstAccount != null && !lstAccount.isEmpty()){
