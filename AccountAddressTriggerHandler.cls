@@ -8,6 +8,7 @@ public with sharing class AccountAddressTriggerHandler {
 		
 	}
     //testing for demo
+	//test vs code
     private void setShippingPostalCode(List<Account> lstAccount){
     	try{
     		if(lstAccount != null && !lstAccount.isEmpty()){
